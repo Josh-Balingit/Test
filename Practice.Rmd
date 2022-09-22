@@ -23,5 +23,7 @@ mat = c(1,4,7,"a", "hello")
 list = list(vector, char_vector, mat)
 
 class(list[[2]])
+
+second_test = "second test"
 ```
 
