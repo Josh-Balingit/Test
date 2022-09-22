@@ -18,7 +18,10 @@ matrix
 
 ## 2nd New Text
 
+mat = c(1,4,7,"a", "hello")
 
-mat = c(1,4,7)
+list = list(vector, char_vector, mat)
+
+class(list[[2]])
 ```
 
