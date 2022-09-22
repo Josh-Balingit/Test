@@ -18,5 +18,7 @@ matrix
 
 ## 2nd New Text
 
+
+mat = c(1,4,7)
 ```
 
