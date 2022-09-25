@@ -30,5 +30,10 @@ message = "hello"
 
 second_test = "second test"
 
+
+
+## Another Practice Branch
+
+random_sample_normal = rnorm(10, mean = 0, sd = 1)
 ```
 
