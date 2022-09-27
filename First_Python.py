@@ -72,6 +72,28 @@ e_list[2][4] = "new"
 
 ######
 
+abc = [5,3,1]
+
+efg = abc
+id(efg)
+id(abc)
+
+efg = ["hi", 1, 2]
+id(efg)
+id(abc)
+    # efg ONLY changes, probably because we are changing efg as a whole and reassigning something entirely different
+
+efg = abc
+id(efg[1])
+id(abc[1])
+
+efg[1] = False
+id(efg[1])
+id(abc[1])
+    # efg[1] and abc[1] changes 
+
+######
+
 add_list = [1,2,3] + [4,5,6]
     # Created [1,2,3,4,5,6]
     
