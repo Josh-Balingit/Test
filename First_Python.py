@@ -72,3 +72,10 @@ e_list[2][4] = "new"
 
 ######
 
+add_list = [1,2,3] + [4,5,6]
+    # Created [1,2,3,4,5,6]
+    
+import numpy as np
+vector_1 = np.array([1,2,3])
+vector_2 = np.array([4,5,6])
+vector_add = vector_1 + vector_2
